@@ -1,0 +1,9 @@
+
+D
+java:S2925"$Remove this use of "Thread.sleep()".(»ãßºøÿÿÿÿ8ÔÖàŒ/
+D
+java:S2925"$Remove this use of "Thread.sleep()".(»ãßºøÿÿÿÿ8õœÇ÷Œ/
+G
+java:S2699"-Add at least one assertion to this test case.(şÚ+8è‚—÷Œ/
+¥
+java:S3577"‰Rename class "IframeDemo" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ë¸Î8¶µ‡àŒ/

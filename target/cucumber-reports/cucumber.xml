@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="1.156">
+<testcase classname="Home feature" name="verify Home user" time="0.193">
+<system-out><![CDATA[Given : Access the Expedia website "this is string1  "......................passed
+When : Click on the 10 button...............................................passed
+Then : verify desired test..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home feature" name="verify Home user 2" time="0.019">
+<system-out><![CDATA[Given : Access the Expedia website "This is String 2 "......................passed
+When : Click on the 20 button...............................................passed
+Then : verify desired test2.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-25T18:37:44.268Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:16)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verify Home user",
+        "description": "",
+        "id": "home-feature;verify-home-user;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:22)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Access the Expedia website \"this is string1  \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"this is string1  \"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:26)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Click on the 10 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 15
+                }
+              ],
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:35)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": verify desired test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 17
+                }
+              ],
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:40)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanitytest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-25T18:37:44.485Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:16)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify Home user",
+        "description": "",
+        "id": "home-feature;verify-home-user;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:22)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Access the Expedia website \"This is String 2 \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is String 2 \"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:26)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Click on the 20 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 15
+                }
+              ],
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:35)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": verify desired test2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2",
+                  "offset": 17
+                }
+              ],
+              "location": "com.bddframework.stepDefination.ExpediaHome.\u003cinit\u003e(ExpediaHome.java:40)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanitytest"
+          }
+        ]
+      }
+    ],
+    "name": "Home feature",
+    "description": "",
+    "id": "home-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ExpediaHome.feature",
+    "tags": []
+  }
+]

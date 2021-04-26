@@ -1,0 +1,7 @@
+
+=
+java:S2925"$Remove this use of "Thread.sleep()".(œÖÂóıÿÿÿÿ
+A
+java:S2699"-Add at least one assertion to this test case.(Ô©ò‚
+ 
+java:S3577"‹Rename class "SliderAction" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ÇÚ¹
